@@ -1,0 +1,225 @@
+#main-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAE0E2;
+
+}
+#inner-container{
+    /* border: 1px solid black; */
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 4%;
+    margin-left: -2.5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   
+}
+#side-A{
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    margin-left: 9%;
+    height: 80%;
+    width: 35%;
+}
+#side-A h1{
+    color:#0A79DF;
+    margin-top: 2%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+#form{
+    margin-bottom: 15%;
+    margin-left: 4%;
+}
+#company{
+    color: #0A79DF;
+}
+.selection-1{
+    height: 25px;
+    width: 325px;
+    margin-bottom: 3%;
+    border-radius: 4px;
+    border: 0.35px solid gray;
+}
+#priority{
+    color:#0A79DF;
+    margin-top: 3%;
+    font-size: 14px;
+    
+}
+.selection-2{
+    height: 25px;
+    width: 325px;
+    margin-bottom: 3%;
+    border-radius: 4px;
+    border: 0.35px solid gray;
+}
+#task{
+    color:#0A79DF;
+}
+#input-1{
+    height: 25px;
+    width: 318px;
+    margin-bottom: 3%;
+    border-radius: 4px;
+    border: 0.35px solid gray;
+}
+#tags{
+    color:#0A79DF;
+}   
+#input-2{
+    height: 25px;
+    width: 318px;
+    margin-bottom: 3%;
+    border-bottom: 10%;
+    border-radius: 4px;
+    border: 0.35px solid gray;
+}
+#people-text{
+    color:#0A79DF;
+    font-size: 15px;
+}
+#input-3{
+    height: 25px;
+    width: 318px;
+    border-radius: 4px;
+    border: 0.35px solid gray;
+}
+#AddButton{
+    background-color: #0A79DF;
+    height: 35px;
+    width: 325px;
+    color: white;
+    margin-bottom: 16%;
+    border-radius: 5px;
+    border: 0px;
+}
+
+        /* side b  */
+.side-b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card{
+    background-color: #ffff;
+    /* border: 1px solid black; */
+    height: 165px;
+    width: 350px;
+    margin-right: 5%;
+    display: flex;
+    border-radius: 5%;
+    flex-direction: row;
+    /* background-color: blue; */
+
+}
+.card-content{
+    width:90%;
+}
+.img-logo{
+    width: 10%;
+    /* background-color: aqua; */
+    width: 80px;
+}
+.img-logo img{
+    margin-top: 35%;
+    margin-left: 25%;
+    border-radius: 35%;
+    overflow: hidden;
+}
+.card-content{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+}
+.line1 {
+    height:20%;
+    display: flex;
+    justify-content: space-between;
+}
+.p1{
+    background-color: #cc6094;
+    width: 45px;
+    height: 20px;
+    border-radius: 10%;
+    font-size: 14px;
+    overflow: hidden;
+    color: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.p2{
+    color: rgb(80, 78, 78);
+    font-size: 15px;
+    padding-right: 8%;
+}
+.line2{
+    margin-bottom: 2%;
+}
+.line2 h2{
+        color: #0A79DF;
+       
+}
+.line3{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.line3-p1{
+    background-color: rgb(204, 193, 193);
+    width: 37%;
+    height: 21px;
+    color:  #0A79DF;
+    margin-top: -4%;
+    margin-bottom: 20%;  
+    padding-top: 1%;                                   
+    padding-left: 2%;
+    padding-right: 1%;
+    border-radius: 3%;
+}
+.line3-p2{
+    background-color: rgb(204, 193, 193);
+    width: 30%;
+    height: 21px;
+    color:  #0A79DF;
+    margin-top: -4%;
+    margin-right: 20%;
+    margin-bottom: 15%;  
+    padding-top: 1%;                                   
+    padding-left: 5%;
+    padding-right: 2%;
+    border-radius: 3%;
+}
+.line4{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.line4-p1{
+    color: #0A79DF;
+    margin-bottom: 12%;
+    font-size: 13Px;
+}
+.line4-p2{
+    color: #0A79DF;
+    margin-bottom: 12%;
+    margin-right: 8%;
+    font-size: 15Px;
+}
+@media screen and (max-width:700px){
+    #inner-container{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .card{
+        margin-left: 6%;
+        margin-bottom: 10%;
+    }
+}
