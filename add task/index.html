@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="main-container">
+        <div id="inner-container">
+            <!-- side ---> 
+            <div id="side-A">
+                <h1>ADD TASK</h1>
+                <form id="form">
+                    <label id="company">company</label>
+                    <br>
+                    <select class="selection-1">
+                        <option>Adidas</option>
+                    </select>
+                    <br>
+                    <label id="priority">Priority</label>
+                    <br>
+                    <select class="selection-2">
+                        <option id="high">High</option>
+                    </select>
+                    <br>
+                    <label  id="task">Task</label>
+                    <br>
+                    <input type="text" id="input-1">
+                    <br>
+                    <label id="tags">Tags</label>
+                    <br>
+                    <input type="text" id="input-2">
+                    <br>
+                    <label id="people-text">No of people working</label>
+                    <br>
+                    <input type="text" id="input-3">
+                    <br><br>
+                    <button id="AddButton">ADD</button>
+                </form>
+            </div>
+                <!-- side -b -->
+            <div class="side-b">
+                <div class="card"> 
+                    <div class="img-logo">
+                        <img src="./simple-brand-bosch-logo-3d-download-png-14.jpg" height="33px" width="33px">
+                    </div>
+                    <div class="card-content">
+                    <div class="line1">
+                        <p class="p1">priority</p>
+                        <p class="p2">2 Apr 2023</p>
+                    </div> 
+                    <div class="line2">
+                        <h2>Task Name</h2>
+                    </div> 
+                    <div class="line3">
+                        <p class="line3-p1">Developement</p>
+                        <p class="line3-p2">Management</p>
+                    </div> 
+                    <div class="line4">
+                        <p class="line4-p1"><i class="fa-solid fa-user" style="color: #77767b;"></i>3 people work on this</p>
+                        <p class="line4-p2"><i class="fa-solid fa-message" style="color: #c0bfbc;"></i>8 comments</p>
+                    </div>  
+                </div>
+            </div>    
+
+        </div>
+    </div>
+
+</body>
+</html>
