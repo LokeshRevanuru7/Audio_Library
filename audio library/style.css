@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.container{
+    width: 100%;
+}
+.music-player{
+    max-width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.music-player .head-section{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(92, 89, 89);
+}
+.music-player .head-section i{
+    font-size: 1.3em;
+    color: rgba(90, 86, 86, 0.959);
+}
+.music-player hr{
+    border: 2px solid rgba(0, 0, 0, 0.159);
+    border-radius: 5px;
+}
+.music-player .head-section .plus-btn{
+    background-color: transparent;
+    color: rgb(100, 99, 99);
+    padding: 2px;
+    font-size: 0.8em;
+    border: 2px solid grey;
+    border-radius: 4px;
+}
+.music-player .align-center{
+    text-align: center;
+   
+}
+.music-player .author{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.756);
+    margin-bottom: 25px;
+     margin-left: 100px;
+}
+.music-player .music-banner img{
+    width: 80%;
+    margin-bottom: 35px;
+}
+.music-player .duration{
+    margin-top: 5px ;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+.music-player .music-controls{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.286);
+    margin-bottom: 30px;
+}
+.music-player .music-controls .play-btn{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 6px solid rgba(0, 0, 0, 0.286);
+    border-radius: 100%;
+    color: rgba(0, 0, 0, 0.49);
+    font-size: 1em;
+    cursor: pointer;
+}
+.music-player .vertical{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.music-player .special{
+    color: black;
+}
+@media screen and (min-width:250px) and (max-width:500px){
+    .container .music-player{
+        max-width: 90%;
+    }
+    .music-player .magical-journey{
+        font-size: 1em;
+    }
+}
